@@ -61,3 +61,24 @@ for (let counter = 0; counter < 9; counter ++){
 // }
 
 // console.log(board)
+
+--------------------------------------
+chapter 3
+
+3.1
+
+function min(a, b) {
+  if (a < b) return a;
+  else return b;
+}
+//简化代码， 如果结果只有一个字母的话，可以省略括号
+
+
+3.2
+
+function isEven(n){
+    if(a ==  0) return true;
+    else if(a == 1) return false;
+    else if(a < 0) return isEven(-n);
+    else return isEven(n - 2);
+}
