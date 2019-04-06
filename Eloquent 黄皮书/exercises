@@ -82,3 +82,23 @@ function isEven(n){
     else if(a < 0) return isEven(-n);
     else return isEven(n - 2);
 }
+
+
+3.3
+
+
+function countChar(string, ch){
+	let result = 0;
+	for(let i = 0; i < string.length; i ++){
+		if(string[i] == ch){
+			result += 1;
+		}
+	}
+		return result;
+}
+//注意for循环写法，括号内三个；后{}
+
+
+
+
+// 		}
