@@ -102,3 +102,53 @@ function countChar(string, ch){
 
 
 // 		}
+
+
+
+
+
+
+
+
+
+------------------------------------------------
+chapter 4
+
+4.1
+
+function range(start, end, step = start < end ? 1 : -1){
+	let result = [];
+	
+	if (step > 0){
+		for(let i = start; i <= end; i += step) result.push(i);}
+	else{
+		for(let i = start; i >= end; i += step) result.push(i);}
+	return result
+	}
+	
+	
+function sum(array){
+	let total = 0;
+	for(i of array){
+		total += i}
+	return total;}
+	
+	
+	
+	
+4.2
+
+function reverseArray(array){
+	let result = [];
+	
+	for(i = array.length - 1; i >= 0; i --){
+		result.push(array[i]);}
+	return result;}
+		
+????????
+function reverseArrayInPlace(array){
+	for(let i = 0; i < Math.floor(array.length / 2); i ++){
+		let old = array[i];
+		array[i] = array[array.length - 1 - i];}
+		return array};
+		
